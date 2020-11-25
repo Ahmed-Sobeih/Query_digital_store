@@ -1,4 +1,4 @@
-select c.country BillingCountry, count(i.invoiceid) Invoices
+Select c.country BillingCountry, count(i.invoiceid) Invoices
 from customer c
 join invoice i 
 on i.customerid = c.customerid
